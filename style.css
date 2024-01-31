@@ -1,0 +1,142 @@
+body {
+    font-family: 'Jura', sans-serif !important;
+    background-color: #020202;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.photo {
+    width: 100%;
+}
+
+.photo img {
+    width: 100%;
+}
+
+header {
+    text-align: center;
+}
+
+.info {
+    margin-top: -50px;
+}
+
+.info p {
+    font-size: 20px;
+    margin: 8px;
+}
+
+.fullname {
+    font-weight: 700;
+    font-size: 32px;
+    margin: 0;
+}
+
+.position {
+    margin: 0;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding: 0;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+#blocks {
+    margin: 42px 10%;
+}
+
+#blocks h2 {
+    font-weight: 700;
+}
+
+#blocks p, summary {
+    font-size: 20px;
+    line-height: 2;
+}
+
+#blocks #left-side {
+    width: 30%;
+    padding-right: 20px;
+}
+
+#blocks #right-side hr {
+    margin-top: 20px;
+}
+
+#right-side p {
+    color: rgba(255, 255, 255, .6);
+    text-align: justify;
+    margin: 0;
+}
+
+.educations {
+    margin-bottom: 18px;
+}
+
+.educations .numeration {
+    font-size: 28px !important;
+    font-weight: bolder;
+    font-style: italic;
+    color: rgb(209, 60, 34) !important;
+}
+
+.educations .degree {
+    font-size: 16px !important;
+    font-weight: 600;
+    color: rgba(255, 252, 252, 0.9) !important;
+}
+
+.educations .title {
+    font-weight: 700;
+    font-size: 19px !important;
+    color: rgba(255, 252, 252, 0.9) !important;
+}
+
+.educations .institution {
+    font-size: 16px !important;
+    font-weight: 600;
+    color: rgba(255, 252, 252, 0.795) !important;
+}
+
+.educations .duration {
+    font-size: 16px !important;
+    font-weight: 700;
+    color: rgb(209, 60, 34) !important;
+}
+
+.red-text {
+    color: rgb(209, 60, 34) !important;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+.skills, .languages, .awards {
+    margin: 0;
+    margin-top: 12px;
+    display: grid;
+    row-gap: 12px;
+    font-size: 18px;
+}
+
+.skills {
+    grid-template-columns: 1fr 1fr;
+}
+
+.copyright {
+    margin: 44px 0 32px 0;
+    text-align: center;
+    color: rgba(255, 252, 252, 0.795);
+}
