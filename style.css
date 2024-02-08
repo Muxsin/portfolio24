@@ -140,3 +140,20 @@ hr {
     text-align: center;
     color: rgba(255, 252, 252, 0.795);
 }
+
+@media screen and (min-width: 900px) {
+    .photo {
+        width: 50%;
+        margin: auto;
+    }
+
+    .photo img {
+        width: 350px;
+        border-radius: 50%;
+    }
+
+    #blocks {
+        width: 60%;
+        margin: auto;
+    }
+}
